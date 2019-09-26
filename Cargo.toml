@@ -22,7 +22,7 @@ members = ['systest']
 
 [dependencies]
 libc = "0.2"
-miniz-sys = { path = "miniz-sys", version = "0.1.11", optional = true }
+miniz-sys = { path = "miniz-sys", optional = true }
 libz-sys = { version = "1.0", optional = true }
 tokio-io = { version = "0.1.11", optional = true }
 futures = { version = "0.1.25", optional = true }
